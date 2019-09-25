@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hhhhhhh on MegaMunicipal</title>
+    <link>http://example.org/events/</link>
+    <description>Recent content in hhhhhhh on MegaMunicipal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Sep 2019 12:03:14 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conseil</title>
+      <link>http://example.org/events/conseil/</link>
+      <pubDate>Mon, 23 Sep 2019 12:03:14 +0200</pubDate>
+      
+      <guid>http://example.org/events/conseil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manger</title>
+      <link>http://example.org/events/manger/</link>
+      <pubDate>Mon, 23 Sep 2019 12:03:09 +0200</pubDate>
+      
+      <guid>http://example.org/events/manger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Youtube</title>
+      <link>http://example.org/events/youtube/</link>
+      <pubDate>Mon, 23 Sep 2019 12:02:47 +0200</pubDate>
+      
+      <guid>http://example.org/events/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Petanque</title>
+      <link>http://example.org/events/petanque/</link>
+      <pubDate>Mon, 23 Sep 2019 12:00:34 +0200</pubDate>
+      
+      <guid>http://example.org/events/petanque/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bowling</title>
+      <link>http://example.org/events/bowling/</link>
+      <pubDate>Mon, 23 Sep 2019 12:00:22 +0200</pubDate>
+      
+      <guid>http://example.org/events/bowling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

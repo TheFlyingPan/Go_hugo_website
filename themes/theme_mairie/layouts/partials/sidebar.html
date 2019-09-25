@@ -1,0 +1,60 @@
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  border: 3px solid #f1f1f1;
+  max-width: 200px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  background-color: grey;
+  overflow-x: hidden;
+  padding-top: 30px;
+  margin-left: 10px;
+}
+
+.sidenav a {
+  margin-right: 20px;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 12px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 200px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 12px;}
+}
+</style>
+</head>
+
+    <div class="sidenav">
+        <h2 style=color:blue>Liste d'associations en spotlight</h2>
+        <ul>
+            {{ range where .Site.Pages "Section" "associations" }}
+                {{ if .Params.important }}
+
+   
+    
+            <li><a href="{{ .Permalink }}">{{.Title}}</a></li>
+            {{end}}
+            {{end}}
+        </ul>
+
+    </div>
+{{ partial "searchbar.html" . }}

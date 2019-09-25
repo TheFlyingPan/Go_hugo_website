@@ -1,0 +1,72 @@
+
+{ "results": [
+
+
+
+    {
+    "url": "http://example.org/events/conseil/",
+    "title": "Conseil",
+    "content": ""
+    },
+
+    {
+    "url": "http://example.org/events/manger/",
+    "title": "Manger",
+    "content": ""
+    },
+
+    {
+    "url": "http://example.org/events/youtube/",
+    "title": "Youtube",
+    "content": ""
+    },
+
+    {
+    "url": "http://example.org/events/petanque/",
+    "title": "Petanque",
+    "content": ""
+    },
+
+    {
+    "url": "http://example.org/events/bowling/",
+    "title": "Bowling",
+    "content": ""
+    },
+
+    {
+    "url": "http://example.org/conseil-municipal/cm1/",
+    "title": "",
+    "content": "présentateur de la television francaise est tres swag "
+    },
+
+    {
+    "url": "http://example.org/conseil-municipal/cm2/",
+    "title": "",
+    "content": "fdfsdfsdfsdsdfsdfsdffsd "
+    },
+
+    {
+    "url": "http://example.org/conseil-municipal/cm3/",
+    "title": "",
+    "content": "sdfsdgsdsdhshhgdgdgsd "
+    },
+
+    {
+    "url": "http://example.org/associations/asso1/",
+    "title": "asso1",
+    "content": "tzetztrtre "
+    },
+
+    {
+    "url": "http://example.org/associations/asso2/",
+    "title": "asso2",
+    "content": "gsdgsdgsdsdgdgsgsdsdgsd "
+    },
+
+    {
+    "url": "http://example.org/associations/asso3/",
+    "title": "asso3",
+    "content": "fdssdgsdsdggsdgsdgsdgsdgsdsdg "
+    }
+
+]}

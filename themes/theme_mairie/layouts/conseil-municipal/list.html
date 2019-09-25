@@ -1,0 +1,28 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+
+    <h1>Liste du conseil</h1>
+    {{ .Content }}
+<div class="conseil">
+    {{ range .Pages }}
+    <a href="{{.URL}}" style="text-decoration : none">
+    <div class="card">
+            
+        
+        <img src="/image/index.jpg" style="height: 100 px; width: 100px">
+            <div class="container">
+            
+    {{ .Params.lastNames }} {{ .Params.firstNames }}
+    <p>Role: {{ .Params.role }}</p>
+            
+           
+            </div>
+    </div> 
+    
+    </a>
+    {{end}}
+</div>
+</body>
+
+{{ partial "footer.html" . }}

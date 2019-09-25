@@ -1,0 +1,15 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+    <title>Mairie</title>
+
+    <h1>Liste des évenements</h1>    
+    {{ if eq .URL "/showevents/upcoming/" }}
+    <h2>Upcoming à </h2>
+    {{ partial "upcoming.html" . }}
+    {{ else }}
+    <h2>Ca s'est passé à Paris</h2>
+    {{ partial "archived.html" . }}
+    {{end}}
+</body>
+{{ partial "footer.html" . }}

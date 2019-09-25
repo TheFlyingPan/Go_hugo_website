@@ -1,0 +1,20 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}  
+{{ partial "sidebar.html" . }}  
+    <title>chibre</title>
+
+    <h1>Liste de mach</h1>
+    {{ .Content }}
+    
+    <ul>
+        {{ range .Paginator.Pages.ByDate.Reverse }}
+        <li><a href="{{.URL}}">{{.Title}}</a></li>
+        
+        {{end}}
+    </ul>
+<ul id="menu">
+    <li>{{ template "_internal/pagination.html" . }}</li>
+</ul>
+
+</body>
+{{ partial "footer.html" . }}

@@ -1,0 +1,23 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+<h2>Liste des évenements à venir</h2>
+
+{{ range first 10 (where .Site.Pages "Section" "events") }} 
+{{ if isset .Params "when"}}
+    {{ if ge (time .Params.when) now}}
+
+            
+<h3>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h3>
+    <p>Date de l'évenement {{ .Params.when }}</p>
+{{end}}
+{{end}}
+{{end}}
+
+
+
+
+</body>
+{{ partial "footer.html" . }}

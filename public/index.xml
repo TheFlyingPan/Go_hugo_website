@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MegaMunicipal</title>
+    <link>http://example.org/</link>
+    <description>Recent content on MegaMunicipal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Sep 2019 12:03:14 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conseil</title>
+      <link>http://example.org/events/conseil/</link>
+      <pubDate>Mon, 23 Sep 2019 12:03:14 +0200</pubDate>
+      
+      <guid>http://example.org/events/conseil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Manger</title>
+      <link>http://example.org/events/manger/</link>
+      <pubDate>Mon, 23 Sep 2019 12:03:09 +0200</pubDate>
+      
+      <guid>http://example.org/events/manger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Youtube</title>
+      <link>http://example.org/events/youtube/</link>
+      <pubDate>Mon, 23 Sep 2019 12:02:47 +0200</pubDate>
+      
+      <guid>http://example.org/events/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Petanque</title>
+      <link>http://example.org/events/petanque/</link>
+      <pubDate>Mon, 23 Sep 2019 12:00:34 +0200</pubDate>
+      
+      <guid>http://example.org/events/petanque/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bowling</title>
+      <link>http://example.org/events/bowling/</link>
+      <pubDate>Mon, 23 Sep 2019 12:00:22 +0200</pubDate>
+      
+      <guid>http://example.org/events/bowling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>http://example.org/search/index.json</link>
+      <pubDate>Tue, 04 Sep 2018 15:32:54 +0200</pubDate>
+      
+      <guid>http://example.org/search/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/conseil-municipal/cm1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/conseil-municipal/cm1/</guid>
+      <description>Présentateur de la television francaise Est tres swag</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/conseil-municipal/cm2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/conseil-municipal/cm2/</guid>
+      <description>fdfsdfsdfsdsdfsdfsdffsd</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/conseil-municipal/cm3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/conseil-municipal/cm3/</guid>
+      <description>sdfsdgsdsdhshhgdgdgsd</description>
+    </item>
+    
+    <item>
+      <title>asso1</title>
+      <link>http://example.org/associations/asso1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/associations/asso1/</guid>
+      <description>tzetztrtre</description>
+    </item>
+    
+    <item>
+      <title>asso2</title>
+      <link>http://example.org/associations/asso2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/associations/asso2/</guid>
+      <description>gsdgsdgsdsdgdgsgsdsdgsd</description>
+    </item>
+    
+    <item>
+      <title>asso3</title>
+      <link>http://example.org/associations/asso3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/associations/asso3/</guid>
+      <description>fdssdgsdsdggsdgsdgsdgsdgsdsdg</description>
+    </item>
+    
+  </channel>
+</rss>

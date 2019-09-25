@@ -1,0 +1,14 @@
+<ul>
+{{ range .Site.Pages }}
+{{ if eq .Type "events"}}
+    {{ if le (time .Params.when) now}}
+<li>
+    <a href="{{.URL}}">{{.Title}}</a>
+</li>
+{{end}}
+{{end}}                
+{{end}}
+</ul>
+<ul id="menu">
+        <li>{{ template "_internal/pagination.html" . }}</li>
+    </ul>

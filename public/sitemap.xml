@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/events/conseil/</loc>
+    <lastmod>2019-09-23T12:03:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-09-23T12:03:14+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/events/</loc>
+    <lastmod>2019-09-23T12:03:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/events/manger/</loc>
+    <lastmod>2019-09-23T12:03:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/events/youtube/</loc>
+    <lastmod>2019-09-23T12:02:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/events/petanque/</loc>
+    <lastmod>2019-09-23T12:00:34+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/events/bowling/</loc>
+    <lastmod>2019-09-23T12:00:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/search/index.json</loc>
+    <lastmod>2018-09-04T15:32:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/associations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/conseil-municipal/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/conseil-municipal/cm1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/conseil-municipal/cm2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/conseil-municipal/cm3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/showevents/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/showevents/archived/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/showevents/upcoming/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/associations/asso1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/associations/asso2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/associations/asso3/</loc>
+  </url>
+  
+</urlset>
