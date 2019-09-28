@@ -5,7 +5,7 @@ adressComp:
     adress: ""
     postalCode: "75000"
     city: "Paris"
-    label: ""
+    label: "égouts"
 when: 2019-10-18T15:12:31+02:00
 desciption: ""
 photos: ""

@@ -125,9 +125,6 @@ img {
 
 .events{
   display: flex;
-  border: 2px solid black;
-  border-radius: 5px;
-  width: 50%
   
 }
 .events a{
@@ -137,17 +134,9 @@ img {
 }
 .events a:hover{
   background-color: #003366;
-  color: red;
-  font-weight: bold;
-  border: 2px solid grey;
-  border-radius: 5px;
+  color: grey;
 }
 
 .label{
   color: black;
-}
-
-.card-events{
-  padding: 20px;
-  border: 1px solid red
 }

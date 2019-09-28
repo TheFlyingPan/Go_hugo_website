@@ -1,0 +1,28 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}  
+{{ partial "sidebar.html" . }}  
+
+    <h1>Liste des évenements</h1>
+    {{ .Content }}
+    
+    <ul>
+        {{ range .Paginator.Pages.ByDate.Reverse }}
+        <li><a href="{{.URL}}">{{.Title}}</a><br><p>{{ .Params.when }}</p>
+        <a>{{ .Params.label }}</a></li>
+        <div class="card-events" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <a  href="{{.URL}}">yes</a>
+                <p class="card-text">content</p>
+            </div>
+        </div>
+        {{end}}
+    </ul>
+<ul id="menu">
+    <li>{{ template "_internal/pagination.html" . }}</li>
+</ul>
+
+</body>
+{{ partial "footer.html" . }}
+
+

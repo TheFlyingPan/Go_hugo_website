@@ -5,7 +5,7 @@ adressComp:
     adress: ""
     postalCode: "75000"
     city: "Paris"
-    label: ""
+    label: "swag"
 when: 2020-08-23T12:04:07+02:00
 desciption: ""
 photos: ""

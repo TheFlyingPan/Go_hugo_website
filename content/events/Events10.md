@@ -5,7 +5,7 @@ adressComp:
     adress: ""
     postalCode: "75000"
     city: "Paris"
-    label: ""
+    label: "koi"
 when: 2020-07-23T12:04:10+02:00
 desciption: ""
 photos: ""

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MegaMunicipal</title>
-
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
 
 
@@ -13,29 +13,31 @@
 <body>
 <style>
     ul#menu li {display:inline;}
+
 </style>
-<h1>Une mairie plutot pas mal</h1>
+<div class="header">
+    
+    <a href="/index.html" class="logo">Mairie swag</a>
+    <div class="header-right">
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Events</a>
+            <div class="dropdown-content">
+                <a href="/events">Events</a>
+                <a href="/showevents/upcoming">Upcoming</a>
+                <a href="/showevents/archived">Archived</a>
+            </div>
+        </div>
+        <a href="/conseil-municipal">Conseil municipal</a>
+        <a href="/associations">Associations</a>
+    </div>
+    
+</div>
 <hr>
-<h3>Plan du site</h3>
+
+
+
 
   
-<ul id="menu">
-        <li><a href="/index.html">Homepage</a></li>
-        -
-        <li><a href="/conseil-municipal">Conseil Municipal</a></li>
-        -
-        <li><a href="/events">Events</a></li>
-        -
-        <li><a href="/showevents/upcoming">Upcoming</a></li>
-        -
-        <li><a href="/showevents/archived">Archived</a></li>
-        -
-        <li><a href="/associations">Associations</a></li>
-        
-        
-    </ul>
-    <hr>
-    <hr>  
 <style>
 body {
   font-family: "Lato", sans-serif;
@@ -43,14 +45,15 @@ body {
 
 .sidenav {
   height: 100%;
+  border: 3px solid #f1f1f1;
   max-width: 200px;
   position: fixed;
   z-index: 0;
   top: 0;
   right: 0;
-  background-color: #111;
+  background-color: grey;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 30px;
   margin-left: 10px;
 }
 
@@ -64,7 +67,7 @@ body {
 }
 
 .sidenav a:hover {
-  color: #818181;
+  color: black;
 }
 
 .main {
@@ -112,8 +115,11 @@ body {
     </div>
 <style>
     .search {
-        position: relative;
+        position: fixed;
         display: inline-block;
+        right: 7px;
+        top: 8px;
+        
         }
     .search-results {
         display: none;
@@ -236,8 +242,31 @@ let vuesearch = new Vue({
 </ul>
 
 </body>
+
 <br>
 <hr>
-<i>"Ce site est vraiment dégeulasse"</i> Paris Match
+<div class="footertop">
+        <h3 style="color: red">Contactez nous: </h3>
+</div>
+<div class="footer">
+    
+    <div class="contact">
+        <p>Envoyez nous un message directement:</p>
+        <form method="POST" action="https://formspree.io/aurepoir00@gmail.com">
+            <input type="email" name="email" placeholder="Votre adresse mail">
+            <textarea name="message" placeholder="Votre message"></textarea>
+            <button type="submit">Envoyer</button>
+          </form>
+    </div>
+    <div class="right">
+        <p>Mairie de Paris</p> 
+        <p>Numéro de Téléphone: 01 25 62 54 85</p>
+        <p>Adresse: 52 rue du swag</p>
+    </div>
+    
+</div>
+<div class="footerbottom">
+        <i>"Ce site est vraiment dégeulasse"</i> Paris Match 
+</div>
 <hr>
 </html>
