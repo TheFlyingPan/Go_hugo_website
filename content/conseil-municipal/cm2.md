@@ -1,7 +1,7 @@
 ---
-firstNames: "Aurélien"
-lastNames: "LE-BG"
-role: "Deputy"
+firstNames: "Jaune"
+lastNames: "GILET"
+role: "Maire"
 
 ---
 {{< figure src="/image/index.jpg/" >}}

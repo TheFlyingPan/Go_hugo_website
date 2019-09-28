@@ -1,0 +1,19 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}  
+{{ partial "sidebar.html" . }}  
+
+    <h1>Liste des associations de la ville de Paris</h1>
+
+{{ range .Paginator.Pages.ByDate.Reverse }}
+    <div class="contenu">
+        
+        <a href="{{.URL}}">{{.Title}}</a> <p style="display: inline-flex"> Domaine: {{.Params.domain}}</p>
+    </div>
+{{end}}
+
+<ul id="menu">
+    <li>{{ template "_internal/pagination.html" . }}</li>
+</ul>
+
+</body>
+{{ partial "footer.html" . }}

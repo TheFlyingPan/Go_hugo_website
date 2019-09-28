@@ -143,11 +143,35 @@ img {
   border-radius: 5px;
 }
 
-.label{
-  color: black;
+.contenu{
+  color: solid blue;
+  max-width: 50%;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  text-decoration: none;
+  margin-left: 17px;
+  font-size: 15
 }
 
-.card-events{
-  padding: 20px;
-  border: 1px solid red
+.contenu a:hover{
+  background-color: grey 
+}
+
+.contenu a{
+  text-decoration: none;
+  font-size: 20;
+  border: 2px solid #003366;
+  border-radius: 3px;
+  color: black;
+}
+.param_events{
+  display: block;
+}
+.param_events a{
+
+}
+
+
+body{
+  background-image: url(fond.jpg)
 }

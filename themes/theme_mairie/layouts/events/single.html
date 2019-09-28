@@ -1,0 +1,15 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+<h1>{{.Title}}</h1>
+<div class="param_events">
+    <img src="/image/eiffel.jpg"><br>
+    <b>Description de l'event:</b> <a>{{.Params.description}}</a><br>
+    <b>Date de l'event: </b><a>{{.Params.when}}</a><br>
+    <b>Organisateurs de l'event: </b><a>{{.Params.association}}</a><br>
+    <b>Adresse complète:</b> <a>{{.Params.adress}}, {{.Params.postalCode}} {{.Params.city}}, {{.Params.label}}</a>
+</div>
+<hr>{{.Content}}<hr>
+
+
+{{ partial "footer.html" . }}

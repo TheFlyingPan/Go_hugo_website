@@ -1,4 +1,3 @@
 ---
 noindex: true
 ---
-index upcoming

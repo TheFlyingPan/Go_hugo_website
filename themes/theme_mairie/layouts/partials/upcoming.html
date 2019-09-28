@@ -4,7 +4,9 @@
         {{ if ge (time .Params.when) now }}
 
     <li>
+        
         <a href="{{.URL}}">{{.Title}}</a>
+        <p style="display: inline-flex">{{.Params.when}}</p>
     </li>         
         {{end}}
     {{end}}
