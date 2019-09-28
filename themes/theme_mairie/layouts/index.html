@@ -8,10 +8,9 @@
     {{ if ge (time .Params.when) now}}
 
             
-<h3>
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </h3>
-    <p>Date de l'évenement {{ .Params.when }}</p>
+<div class="events">
+    <a href="{{ .Permalink }}">{{ .Title }}<br><p style="color:black">Date de l'évenement {{ .Params.when }}</p></a>
+</div>
 {{end}}
 {{end}}
 {{end}}
